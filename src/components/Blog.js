@@ -76,7 +76,7 @@ const Blog = () => {
                   {/* Figure Starts */}
                   <figure className="blog-figure">
                     <a href="#" onClick={() => onClick(i)}>
-                      <Image className="img-fluid" src={data.img} alt="" />
+                      <img className="img-fluid" src={data.img} alt="" />
                     </a>
                     <div className="post-date">
                       {" "}

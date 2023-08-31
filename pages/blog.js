@@ -23,7 +23,7 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <Image
+                    <img
                       className="responsive-img"
                       src="img/blog/blog-post-1.jpg"
                       alt=""
@@ -79,7 +79,7 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <Image
+                    <img
                       className="responsive-img"
                       src="img/blog/blog-post-2.jpg"
                       alt=""
@@ -135,7 +135,7 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <Image
+                    <img
                       className="responsive-img"
                       src="img/blog/blog-post-3.jpg"
                       alt=""

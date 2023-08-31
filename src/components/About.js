@@ -19,7 +19,7 @@ const About = () => {
           {/* Personal Infos Starts */}
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div className="image-container">
-              <Image
+              <img
                 className="img-fluid d-block"
                 src="img/dark-about.jpg"
                 alt=""

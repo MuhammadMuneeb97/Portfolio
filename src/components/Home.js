@@ -10,7 +10,7 @@ const Home = ({ leftImg, leftImgSrc }) => {
     <section id="home" className={`${nav === "home" ? "active" : ""}`}>
       <div className="main-text-container">
         {leftImg && (
-          <Image
+          <img
             className="leftimagepicture"
             src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
             alt=""

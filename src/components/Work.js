@@ -243,12 +243,7 @@ const Work = () => {
                     </span>
                   </li>
                 </ul>
-                <a
-                  rel="noopener"
-                  target="_blank"
-                  href={work?.url}
-                  className="btn"
-                >
+                <a target="_blank" href={work?.url} className="btn">
                   <span>
                     <i className="fa fa-external-link" />
                     preview
