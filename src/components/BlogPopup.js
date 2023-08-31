@@ -11,7 +11,7 @@ const BlogPopup = ({ open, close, data }) => {
           <div className="description_wrap">
             <div className="news_popup_details">
               <div className="top_image">
-                <img src="img/4-2.jpg" alt="" />
+                <Image src="img/4-2.jpg" alt="" />
                 <div
                   className="main"
                   data-img-url={data && data.img}

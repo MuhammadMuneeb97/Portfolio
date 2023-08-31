@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Fragment, useEffect } from "react";
+
 const Demo = () => {
   useEffect(() => {
     document.querySelector("body").style.overflow = "auto";
@@ -39,7 +40,7 @@ const Demo = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
+                    <Image
                       src="demo/assets/images/index-dark.jpg"
                       alt=""
                       className="img-responsive screenshot"
@@ -70,7 +71,7 @@ const Demo = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
+                    <Image
                       src="demo/assets/images/index-image-overlay.jpg"
                       alt=""
                       className="img-responsive screenshot"
@@ -101,7 +102,7 @@ const Demo = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
+                    <Image
                       src="demo/assets/images/video-dark.jpg"
                       alt=""
                       className="img-responsive screenshot"
@@ -132,7 +133,7 @@ const Demo = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
+                    <Image
                       src="demo/assets/images/video-light.jpg"
                       alt=""
                       className="img-responsive screenshot"
@@ -163,7 +164,7 @@ const Demo = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
+                    <Image
                       src="demo/assets/images/imageleft-dark.jpg"
                       alt=""
                       className="img-responsive screenshot"
@@ -194,7 +195,7 @@ const Demo = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
+                    <Image
                       src="demo/assets/images/imageleft-light.jpg"
                       alt=""
                       className="img-responsive screenshot"
