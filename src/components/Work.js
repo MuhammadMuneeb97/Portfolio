@@ -140,7 +140,7 @@ const Work = () => {
                         data-type="project-1"
                         onClick={() => setActive(i + 1)}
                       >
-                        <Image
+                        <img
                           src={work.img}
                           alt="Project"
                           className="img-fluid"
